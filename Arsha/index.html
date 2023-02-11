@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>{BarbaCode}</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <!-- <link href="assets/vendor/aos/aos.css" rel="stylesheet"> -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <!-- <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"> -->
+  <!-- <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"> -->
+  <!-- <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet"> -->
+  <!-- <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    .logo {
+      display: flex;
+      align-items: center;
+
+    }
+
+    .logo h6 {
+      padding: 0px;
+      margin: 0px;
+    }
+
+    #header .logo img {
+      max-height: 60px;
+      filter: invert(100%);
+    }
+
+    .logo>a {
+      font-size: 1rem;
+      font-family: "Jost", "sans-serif";
+      font-weight: 600;
+    }
+
+    #header {
+      padding: 5px 0px;
+      padding-top: 25px;
+    }
+
+    #hero,
+    #header {
+      background: rgb(0, 8, 22);
+      background: linear-gradient(90deg, rgba(0, 8, 22, 1) 0%, rgba(0, 8, 22, 1) 33%, rgba(0, 8, 22, 1) 56%, rgba(0, 64, 86, 1) 86%, rgba(0, 82, 107, 1) 100%, rgba(0, 119, 149, 1) 100%, rgba(0, 155, 190, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    }
+
+    #header.header-scrolled,
+    #header.header-inner-pages {
+      background: #000816d4;
+    }
+
+    .card {
+      padding: 0px;
+      border: 0;
+      box-shadow: 0 1px 3px rgb(3 0 71 / 9%)
+    }
+
+    .card:hover {
+      box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+    }
+
+    .faq .faq-list li {
+      padding: 0px;
+    }
+    .faq-list > div > div {
+      margin-bottom: 20px;
+    }
+
+    .faq .faq-list {
+      padding: 0px;
+    }
+    #footer {
+      background: rgb(0, 8, 22);
+    }
+    label {
+      font-family: ;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+      <div class="logo me-auto">
+        <img src="images/logo.svg">
+        <a class="col-md-6 col-sm-12" href="index.html">
+          <h7>Barba</h7>
+          <h5>Code</h5>
+        </a>
+      </div>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
+          <li><a class="nav-link scrollto" href="#services"></a></li>
+          <li class="dropdown"><a href="#"><span>Nuestros cursos</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Angular</a></li>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">TypeScript</a></li>
+              <li><a href="#">JavaScript</a></li>
+              
+              <li><a href="#">PHP</a></li>
+              <li><a href="#">LARAVEL</a></li>
+              <li><a href="#">NodeJs</a></li>
+              <li><a href="#">Angular</a></li>
+              <li><a href="#">MySql</a></li>
+              <li><a href="#">SQLServer</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#about">¿Quienes somos?</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Equipo</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contáctanos</a></li>
+          <li><a class="getstarted scrollto" href="#about">Empezar aprender</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </div>
+  </header>
+  <!----.header-->
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+          data-aos="fade-up" data-aos-delay="200">
+          <h1>Aprende a tu ritmo con {BarbaCode}</h1>
+          <h2>Enfócate en tu desarrollo profesional y aprende con nuestros cursos especializados.</h2>
+          <h2>Tu momento ha llegado...</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#about" class="btn-get-started scrollto">Empieza aprender, es gratis</a>
+            <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Mira este video</span></a> -->
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="images/software-developer.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+      <div class="row">
+
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Nuestros cursos</h2>
+        </div>
+
+        <div class="faq-list">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card">
+                <img src="https://geeks-react.netlify.app/static/media/course-graphql.f5dec42e4ae0102ebffa.jpg"
+                  class="card-img-top" alt="Java script">
+                <div class="card-body">
+                  <h5 style="font-size: 18px;" class="card-title">GraphQl: Introducción a graphQl para principiantes</h5>
+                  <ul class="mb-3 list-inline">
+                    <li class="list-inline-item"><i class="bi bi-clock"></i>2h 46m</li>
+                    <li class="list-inline-item">
+                      <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                        <rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect>
+                        <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9"></rect>
+                      </svg>Beginner
+                    </li>
+                    <li class="list-inline-item">
+                      <span class="me-1 mb-1"><i class="bi bi-person-fill-check me-1 mt-n1"></i>2,100</span>
+                    </li>
+                    <li class="list-inline-item">
+                      <span class="text-warning me-1 mb-1"> <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg></span>
+                      <span class="text-warning me-1"> 2.5</span>
+                      <span class="fs-6 text-muted"> (1,500)</span>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="https://geeks-react.netlify.app/static/media/course-react.999d5d4b7ef4771200c2.jpg"
+                  class="card-img-top" alt="Java script">
+                <div class="card-body">
+                  <h5 style="font-size: 18px;" class="card-title">GraphQl: Introducción a graphQl para principiantes</h5>
+                  <ul class="mb-3 list-inline">
+                    <li class="list-inline-item"><i class="bi bi-clock"></i>2h 46m</li>
+                    <li class="list-inline-item">
+                      <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                        <rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect>
+                        <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9"></rect>
+                      </svg>Beginner
+                    </li>
+                    <li class="list-inline-item">
+                      <span class="me-1 mb-1"><i class="bi bi-person-fill-check me-1 mt-n1"></i>2,100</span>
+                    </li>
+                    <li class="list-inline-item">
+                      <span class="text-warning me-1 mb-1"> <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg></span>
+                      <span class="text-warning me-1"> 2.5</span>
+                      <span class="fs-6 text-muted"> (1,500)</span>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="https://geeks-react.netlify.app/static/media/course-javascript.8afdeff32816e30422da.jpg"
+                  class="card-img-top" alt="Java script">
+                <div class="card-body">
+                  <h5 style="font-size: 18px;" class="card-title">GraphQl: Introducción a graphQl para principiantes</h5>
+                  <ul class="mb-3 list-inline">
+                    <li class="list-inline-item"><i class="bi bi-clock"></i>2h 46m</li>
+                    <li class="list-inline-item">
+                      <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                        <rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect>
+                        <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9"></rect>
+                      </svg>Beginner
+                    </li>
+                    <li class="list-inline-item">
+                      <span class="me-1 mb-1"><i class="bi bi-person-fill-check me-1 mt-n1"></i>2,100</span>
+                    </li>
+                    <li class="list-inline-item">
+                      <span class="text-warning me-1 mb-1"> <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg></span>
+                      <span class="text-warning me-1"> 2.5</span>
+                      <span class="fs-6 text-muted"> (1,500)</span>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="https://geeks-react.netlify.app/static/media/course-graphql.f5dec42e4ae0102ebffa.jpg"
+                  class="card-img-top" alt="Java script">
+                <div class="card-body">
+                  <h5 style="font-size: 18px;" class="card-title">GraphQl: Introducción a graphQl para principiantes</h5>
+                  <ul class="mb-3 list-inline">
+                    <li class="list-inline-item"><i class="bi bi-clock"></i>2h 46m</li>
+                    <li class="list-inline-item">
+                      <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                        <rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect>
+                        <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9"></rect>
+                      </svg>Beginner
+                    </li>
+                    <li class="list-inline-item">
+                      <span class="me-1 mb-1"><i class="bi bi-person-fill-check me-1 mt-n1"></i>2,100</span>
+                    </li>
+                    <li class="list-inline-item">
+                      <span class="text-warning me-1 mb-1"> <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg></span>
+                      <span class="text-warning me-1"> 2.5</span>
+                      <span class="fs-6 text-muted"> (1,500)</span>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="https://geeks-react.netlify.app/static/media/course-graphql.f5dec42e4ae0102ebffa.jpg"
+                  class="card-img-top" alt="Java script">
+                <div class="card-body">
+                  <h5 style="font-size: 18px;" class="card-title">GraphQl: Introducción a graphQl para principiantes</h5>
+                  <ul class="mb-3 list-inline">
+                    <li class="list-inline-item"><i class="bi bi-clock"></i>2h 46m</li>
+                    <li class="list-inline-item">
+                      <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                        <rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect>
+                        <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9"></rect>
+                      </svg>Beginner
+                    </li>
+                    <li class="list-inline-item">
+                      <span class="me-1 mb-1"><i class="bi bi-person-fill-check me-1 mt-n1"></i>2,100</span>
+                    </li>
+                    <li class="list-inline-item">
+                      <span class="text-warning me-1 mb-1"> <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg></span>
+                      <span class="text-warning me-1"> 2.5</span>
+                      <span class="fs-6 text-muted"> (1,500)</span>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="https://geeks-react.netlify.app/static/media/course-react.999d5d4b7ef4771200c2.jpg"
+                  class="card-img-top" alt="Java script">
+                <div class="card-body">
+                  <h5 style="font-size: 18px;" class="card-title">GraphQl: Introducción a graphQl para principiantes</h5>
+                  <ul class="mb-3 list-inline">
+                    <li class="list-inline-item"><i class="bi bi-clock"></i>2h 46m</li>
+                    <li class="list-inline-item">
+                      <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                        <rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect>
+                        <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9"></rect>
+                      </svg>Beginner
+                    </li>
+                    <li class="list-inline-item">
+                      <span class="me-1 mb-1"><i class="bi bi-person-fill-check me-1 mt-n1"></i>2,100</span>
+                    </li>
+                    <li class="list-inline-item">
+                      <span class="text-warning me-1 mb-1"> <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg></span>
+                      <span class="text-warning me-1"> 2.5</span>
+                      <span class="fs-6 text-muted"> (1,500)</span>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="https://geeks-react.netlify.app/static/media/course-graphql.f5dec42e4ae0102ebffa.jpg"
+                  class="card-img-top" alt="Java script">
+                <div class="card-body">
+                  <h5 style="font-size: 18px;" class="card-title">GraphQl: Introducción a graphQl para principiantes</h5>
+                  <ul class="mb-3 list-inline">
+                    <li class="list-inline-item"><i class="bi bi-clock"></i>2h 46m</li>
+                    <li class="list-inline-item">
+                      <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                        <rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect>
+                        <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9"></rect>
+                      </svg>Beginner
+                    </li>
+                    <li class="list-inline-item">
+                      <span class="me-1 mb-1"><i class="bi bi-person-fill-check me-1 mt-n1"></i>2,100</span>
+                    </li>
+                    <li class="list-inline-item">
+                      <span class="text-warning me-1 mb-1"> <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg></span>
+                      <span class="text-warning me-1"> 2.5</span>
+                      <span class="fs-6 text-muted"> (1,500)</span>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="https://geeks-react.netlify.app/static/media/course-react.999d5d4b7ef4771200c2.jpg"
+                  class="card-img-top" alt="Java script">
+                <div class="card-body">
+                  <h5 style="font-size: 18px;" class="card-title">GraphQl: Introducción a graphQl para principiantes</h5>
+                  <ul class="mb-3 list-inline">
+                    <li class="list-inline-item"><i class="bi bi-clock"></i>2h 46m</li>
+                    <li class="list-inline-item">
+                      <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                        <rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect>
+                        <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9"></rect>
+                      </svg>Beginner
+                    </li>
+                    <li class="list-inline-item">
+                      <span class="me-1 mb-1"><i class="bi bi-person-fill-check me-1 mt-n1"></i>2,100</span>
+                    </li>
+                    <li class="list-inline-item">
+                      <span class="text-warning me-1 mb-1"> <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg><svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg></span>
+                      <span class="text-warning me-1"> 2.5</span>
+                      <span class="fs-6 text-muted"> (1,500)</span>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Barba Code</h3>
+            
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Políticas</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Política de cookies</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Política de privacidad</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Términos y condiciones</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Explora</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Empieza aprender, es gratis</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">©<strong><span>2023 BarbaCode</span></strong>. Todos los derechos reservados 
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <!--
+  <script src="assets/vendor/aos/aos.js"></script>
+  --->
+  <!-- <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+  <!-- <script src="assets/vendor/glightbox/js/glightbox.min.js"></script> -->
+  <!-- <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script> -->
+  <!-- <script src="assets/vendor/swiper/swiper-bundle.min.js"></script> -->
+  <!-- <script src="assets/vendor/waypoints/noframework.waypoints.js"></script> -->
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
